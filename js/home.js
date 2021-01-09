@@ -128,7 +128,7 @@ $btnSearch.addEventListener("click", async () => {
     }
 
     else {
-        await fetch("https://pokeapi.co/api/v2/pokemon?limit=893&offset=0")
+        await fetch("https://pokeapi.co/api/v2/pokemon?limit=898&offset=0")
         .then(res => res.json())
         .then(async res => {
             $table_pokemons.textContent = ""
