@@ -80,7 +80,7 @@ $btnNext.addEventListener("click", () => {
 })
 
 $btnSearch.addEventListener("click", async () => {
-    const $inputSearch = document.querySelector(".inputSearch").value;
+    const $inputSearch = document.querySelector(".inputSearch").value.toLowerCase();
 
 
     if ($inputSearch === "") {
