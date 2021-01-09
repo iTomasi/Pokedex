@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    background: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #111111;
+}
+
+.table {
+    max-width: 1000px;
+    color: #f9f9f9;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.table__search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table__search input {
+    background: #333;
+    color: #f9f9f9;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.table__search button {
+    background: #5FFEE9;
+    border: none;
+    outline: none;
+    min-height: 35px;
+    padding: 0 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table__info {
+    display: flex;
+    background: #333;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 10px 0;
+}
+
+.table__btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.table__btns button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    min-height: 35px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.btnPrevious {
+    background: #FF5D5D;
+}
+
+.btnPrevious:hover {
+    background: #EA5656
+}
+
+.btnNext {
+    background: #5DFF6F;
+}
+
+.btnNext:hover {
+    background: #55E565;
+}
+
+.table__pokemons {
+    background: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.pokemon {
+    display: flex;
+    align-items: center;
+}
+
+.pokemon__id {
+    width: 15%;
+}
+
+.pokemon__sprite {
+    width: 25%
+}
+
+.pokemon__name,
+.pokemon__type {
+    width: 30%;
+}
+
+.pokemon__type {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon__typeProperties {
+    border-radius: 10px;
+    color: #000000;
+    margin: 0 10px;
+    padding: 8px;
+}
+
+.pokemon__grass {
+    background: #7FFF6F
+}
+
+.pokemon__fire {
+    background: #FF7C6F
+}
+
+.pokemon__water {
+    background: #6FFFFF;
+}
+
+.pokemon__poison {
+    background: #7C6FFF;
+}
+
+.pokemon__flying {
+    background: #D1FFF6;
+}
+
+.pokemon__bug {
+    background: #D1FF74;
+}
+
+.pokemon__normal {
+    background: #D2D2D2;
+}
+
+.pokemon__electric {
+    background: #FFFF8E;
+}
+
+.pokemon__ground {
+    background: #E3E382;
+}
+
+.pokemon__fairy {
+    background: #F795FF;
+}
+
+@media screen and (max-width: 1050px) {
+    .table {
+        width: 98%;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex API</title>
+    <link href="css/globals.css" rel="stylesheet">
+</head>
+<body>
+    <div class="table">
+        <div class="table__search">
+            <input class="inputSearch" type="text" placeholder="Search by Name or ID">
+            <button class="btnSearch" type="button">Search</button>
+        </div>
+
+        <div class="table__info">
+            <span style="width: 15%;">ID</span>
+            <span style="width: 25%;">Sprite</span>
+            <span style="width: 30%;">Name</span>
+            <span style="width: 30%;">Type</span>
+        </div>
+
+        <div class="table__btns">
+            <button type="button" class="btnPrevious">Previous</button>
+            <span class="table__btns-span">1 - 50</span>
+            <button type="button" class="btnNext">Next</button>
+        </div>
+        <div class="table__pokemons"></div>
+    </div>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
