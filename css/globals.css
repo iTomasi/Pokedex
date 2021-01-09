@@ -162,6 +162,34 @@ body {
     background: #F795FF;
 }
 
+.pokemon__fighting {
+    background: #DFB157;
+}
+
+.pokemon__psychic {
+    background: #E891FF;
+}
+
+.pokemon__rock {
+    background: #FFD25B;
+}
+
+.pokemon__steel {
+    background: #C4C4C4
+}
+
+.pokemon__ice {
+    background: #C2FFFC;
+}
+
+.pokemon__ghost {
+    background: #7E73A7;
+}
+
+.pokemon__dragon {
+    background: #836CD8;
+}
+
 @media screen and (max-width: 1050px) {
     .table {
         width: 98%;
